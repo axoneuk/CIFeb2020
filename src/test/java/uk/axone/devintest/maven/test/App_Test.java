@@ -34,4 +34,9 @@ public class App_Test {
 
     }
 
+    @Test
+    public void test6(){
+
+        System.out.println("Running test 6");
+    }
 }
