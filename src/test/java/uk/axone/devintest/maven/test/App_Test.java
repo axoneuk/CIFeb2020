@@ -1,5 +1,6 @@
 package uk.axone.devintest.maven.test;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class App_Test {
@@ -24,6 +25,13 @@ public class App_Test {
     @Test
     public void test4(){
         System.out.println("Running test 4");
+    }
+
+    @Test
+    public void test5(){
+
+        System.out.println("Running test 5");
+        Assert.fail();
     }
 
 }
